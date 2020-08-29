@@ -34,8 +34,9 @@ ciclo(conspebd<=7)
 conspebd=conspebd+1
 max=7-conspebd
 return("Te quedan", " ", max, " ", "artículos de PEBD por comprar.")"""
+#import NumPy se planea implementar NumPy cuando se agreguen las listas
+#se inicia el código
 #el usuario ingresará el número de artículos de plástico PET que llevará
-import Numpy
 artpet=int(input("Ingrese cuántos artículos de PET llevará")) #En un futuro se harán listas para que el usuario eliga el artículo que desea sin espeficar qué plástico es
 maxpet = 6
 if (artpet<=maxpet):
